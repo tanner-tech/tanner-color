@@ -8,7 +8,11 @@ const Home = () => {
     return (
         <Layouts>
             <Head>
-                {/* Add meta tags */}
+                <meta charset="UTF-8" />
+                <meta name="description" content="Choose your color" />
+                <meta name="keywords" content="color, random color, generate hex color, hex value, random rgb, rgb color, generate random hex color, generate random rgv color" />
+                <meta name="author" content="Tanner Tech" />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <title>Tanner | Colors</title>
             </Head>
             <MainSection />
@@ -16,8 +20,5 @@ const Home = () => {
         </Layouts>
     )
 }
-const HomePage = styled.div`
-    
-`
-const Heading = styled.h1``
+
 export default Home
